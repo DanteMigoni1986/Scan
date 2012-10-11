@@ -1,18 +1,18 @@
-This is a MS. degree thesis project regarding an object reconstruction by means of an optical 
-metrology technique which consists on a laser line projection over the object큦 surface and 
-scanning by the acquisition of several images of the line projection over the surface at 
-different locations depending on the desired resolution on the reconstruction. The project
-takes advantage of several open source libraries such as CImg, OpenCv, libusb among others.
-It includes a GUI on QT and works with three threads that perform different tasks on the
-application.
+This is a MS. degree thesis project regarding an object reconstruction by means 
+of an optical metrology technique which consists on a laser line projection over 
+the object큦 surface and scanning by the acquisition of several images of the line 
+projection over the surface at different locations depending on the desired 
+resolution on the reconstruction. The project takes advantage of several open source 
+libraries such as CImg, OpenCv, libusb among others.It includes a GUI on QT and works 
+with three threads that perform different tasks on the application.
 
-The project is still at the development stage and uses a lot of image processing with CImg and
-is supported by other tools such as a PIC(which is programmed in C) that communicates with the 
-PC via USB and the PIC also controls a stepper motor which gives the scanning resolution. The
-scanning result (primitives and vertices) are saved in an object file format which can be
-imported by other software to manipulate the mesh.
+The project is still at the development stage and uses a lot of image processing with 
+CImg and is supported by other tools such as a PIC(which is programmed in C) that 
+communicates with the PC via USB and the PIC also controls a stepper motor which gives 
+the scanning resolution. The scanning result (primitives and vertices) are saved in an 
+object file format which can be imported by other software to manipulate the mesh.
 
-The mesh is smoothed by means of using a bezier 2d algorithm or by using a Low pass filter
-(butterworth) mask applied to the mesh . An example of the resulting scan from one object큦 
-face can be seen at the "plantilla_bez_fourier.stl" which can be opened (for example) in 
-meshlab. 
+The mesh is smoothed by means of using a bezier 2d algorithm or by using a Low pass 
+filter(butterworth) mask applied to the mesh . An example of the resulting scan from 
+one object큦 face can be seen at the "plantilla_bez_fourier.stl" which can be opened 
+(for example) in meshlab. 
