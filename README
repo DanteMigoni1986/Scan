@@ -11,3 +11,8 @@ is supported by other tools such as a PIC(which is programmed in C) that communi
 PC via USB and the PIC also controls a stepper motor which gives the scanning resolution. The
 scanning result (primitives and vertices) are saved in an object file format which can be
 imported by other software to manipulate the mesh.
+
+The mesh is smoothed by means of using a bezier 2d algorithm or by using a Low pass filter
+(butterworth) mask applied to the mesh . An example of the resulting scan from one object´s 
+face can be seen at the "plantilla_bez_fourier.stl" which can be opened (for example) in 
+meshlab. 
