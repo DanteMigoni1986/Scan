@@ -1,0 +1,7 @@
+This is a MS. degree thesis project regarding an object reconstruction by means of an optical 
+metrology technique which consists on a laser line projection over the object´s surface and 
+scanning by the acquisition of several images of the line projection over the surface at 
+different locations depending on the desired resolution on the reconstruction. The project
+takes advantage of several open source libraries such as CImg, OpenCv, libusb among others.
+It includes a GUI on QT and works with three threads that perform different tasks on the
+application.
